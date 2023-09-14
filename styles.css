@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+.navbar-brand {
+  font-family: "Roboto", sans-serif;
+}
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+  margin-left: 450px;
+}
+
+.container-fluid {
+  zoom: 1;
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+}
+.navbarNavDropdown {
+  float: right;
+  position: relative;
+}
+.navbarlink {
+  color: #00b39b;
+}
+.lead__logo {
+  display: block;
+  margin: 0 auto;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.lead h1 {
+  text-align: center;
+  font-weight: 500;
+  color: #00b39b;
+  font-family: Work Sans,Arial,sans-serif;
+  font-size: 2.125rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.services {
+  margin: 3.75rem auto 2.5rem;
+}
+.section__inner {
+  zoom: 1;
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+  display: table;
+}
+.fade-elements {
+  display: flex;
+  justify-content: center;
+}
+.h1,
+h1 {
+  font-size: calc(1.375rem + 1.5vw);
+  color: antiquewhite;
+
+}
+.services .fade-elements .fade-elements__visible .services__item > * {
+  opacity: 1;
+  transform: translate(0);
+}
+.services .fade-elements .services__item > :first-child {
+  transition-delay: 0.25s;
+}
+.services .fade-elements .services__item > * {
+  opacity: 0;
+  transform: translate(30px);
+  transition: all 0.25s ease 0.25s;
+}
+.brands {
+  margin: 2.5rem auto 3.125rem;
+}
+.brands h1 {
+  float: left;
+  width: 33%;
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  padding-right: 1em;
+}
+.brands__logos {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0;
+  list-style: none;
+  width: 67%;
+}
+.brands__logos li {
+  font-size: 1rem;
+  display: inline-block;
+  margin-top: 0;
+  padding: 5px 0 5px 5px;
+  width: 25%;
+}
+a {
+  text-decoration: none;
+  color: #3d83df;
+  outline: 0;
+  transition: all 0.2s ease 0s;
+}
+.brands__logos a path {
+  transition: all 0.2s ease 0s;
+  fill: hsla(0, 0%, 67%, 0.7);
+}
+.brands__logos .tuotempo img {
+  height: 16px;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.brands__logos a svg {
+  height: 20px;
+  width: auto;
+  max-width: 100%;
+}
+.brands__logos .clinicloud img, .brands__logos .gipo img {
+  height: 34px;
+}
+.services__item {
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all .2s ease 0s;
+}
+.fade-elements>.fade-elements__visible {
+  transform: translate(0);
+  opacity: 1;
+}
+.col-3 {
+  width: 33.33% !important;
+}
+.services__item h2 {font-size: 1.5rem;}
+.grid > div {margin: 10px;
+  border-radius: 10px;
+}
+.services__item:last-child div:last-child {margin-bottom: 35px;} 
